@@ -16,7 +16,7 @@
 					<ul>
 						<li><a href="#home">Home</a></li>
 						<li><a href="#aboutme">About Me</a></li>
-						<li><a href="#experience">Experience</a></li>
+						<li><a href="#experience">Technologies</a></li>
 						<li><a href="#projects">My projects</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
@@ -50,61 +50,115 @@
 						<h2>About Me</h2>
 					</header>
 					<p>
-						25 years old. Venezuelan :)
+						25 year old Venezuelan with 2 years of experience in software development :)
 					</p>
 					<p>
-						Creative, disciplined and responsable.<br> 
-						I take the initiative to solve problems efficiently and achieve pre-set goals.
+						Creative, disciplined and responsable. I take the initiative to solve problems efficiently and achieve pre-set goals.
 					</p>
-					<p>
+					<!-- <p>
 						I studied telecommunications engineering at Simón Bolívar University in Caracas, Venezuela and did an exchange program about Digital Infrastructures at Grenoble INP in France.
-					</p>
+					</p> -->
 				</div>
 				<a href="#experience" class="button style2 down anchored">Next</a>
 			</section>
 
 			<section id="experience" class="main style2 left dark fullscreen">
-				<div class="content box style2">
+				<div class="content box-color style2">
 					<header>
-						<h2>Experience</h2>
+						<h2>Technologies that I know</h2>
+						<p>
+							<strong>Frontend:</strong> React, Angular, Typescript, HTML, CSS<br>
+							<strong>Backend:</strong> Python, Flask, Django, GCP, K8s, Docker<br>
+							<strong>Databases:</strong> Mongodb, PostgreSQL, MySQL
+						</p>
 					</header>
-					<p>
-						Full Stack Developer at Lorebi (Caracas, Venezuela)
-						Internship at HPE (Grenoble, France)<br>
-					</p>
 				</div>
-				<a href="#projects" class="button style2 down anchored">Next</a>
+				<div class="style-tech">
+					<div class="row mb-2">
+						<img src="images/logos/angular.png" class="tech" style="width:5rem;">
+						<img src="images/logos/react.png" class="tech" style="width:5rem;">
+						<img src="images/logos/flask.png" class="tech" style="width:8rem;">
+						<img src="images/logos/django.png" style="width:7rem;">
+					</div>
+					<div class="row mb-2">
+						<img src="images/logos/python.png" style="width:7rem;margin-right: 3.5rem;">
+						<img src="images/logos/docker.png" class="tech" style="width:5rem;">
+						<img src="images/logos/k8s.png" style="width:9rem; margin-right: 3rem;">
+						<img src="images/logos/gcp.png" style="width:9rem;">
+					</div>
+					<div class="row">
+						<img src="images/logos/mongodb.png" class="tech" style="width:7rem;">
+						<img src="images/logos/postgresql.png" class="tech" style="width:6rem;">
+						<img src="images/logos/spark.png" class="tech" style="width:6rem;">
+						<img src="images/logos/nodejs.png" style="width:7rem;">
+					</div>
+				</div>
+				<a href="#projects" class="button down anchored">Next</a>
 			</section>
 
 		<!-- projects -->
 			<section id="projects" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>Full Stack projects</h2>
+						<h2 class="title" >Some of my full stack projects</h2>
 					</header>
 
 					<!-- Gallery  -->
-						<div class="gallery">
-							<article class="from-left">
-								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
-							</article>
-						</div>
-
+					<!-- <a href="images/fulls/04.png" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a> -->
+					<h4 class="title" >Task and Workforce Management Software (Dashboard and App)</h4>
+					<div class="gallery">
+						<article class="from-left">
+							<img class="image fit" src="images/project1.png">
+						</article>
+						<article class="from-right">
+							<img class="image fit" src="images/project2.png">
+						</article>
+					</div>
+					<div class="gallery">
+						<article class="from-left">
+							<img class="image fit-app" src="images/task1.png">
+						</article>
+						<article class="from-left">
+							<img class="image fit-app" src="images/task2.png">
+						</article>
+						<article class="from-right">
+							<img class="image fit-app" src="images/task3.png">
+						</article>
+						<article class="from-right">
+							<img class="image fit-app" src="images/task4.png">
+						</article>
+					</div>
+					<h4 class="title">Crypto Wallet App</h4>
+					<div class="gallery">
+						<article class="from-left">
+							<img class="image fit-app" src="images/wallet1.png">
+						</article>
+						<article class="from-left">
+							<img class="image fit-app" src="images/wallet2.png">
+						</article>
+						<article class="from-right">
+							<img class="image fit-app" src="images/wallet3.png">
+						</article>
+						<article class="from-right">
+							<img class="image fit-app" src="images/wallet4.png">
+						</article>
+					</div>
+					<h4 class="title">Point of Sales App</h4>
+					<br>
+					<div class="gallery">
+						<article class="from-left">
+							<img class="image fit-app" src="images/pos1.png">
+						</article>
+						<article class="from-left">
+							<img class="image fit-app" src="images/pos2.png">
+						</article>
+						<article class="from-right">
+							<img class="image fit-app" src="images/pos3.png">
+						</article>
+						<article class="from-right">
+							<img class="image fit-app" src="images/pos4.png">
+						</article>
+					</div>
 				</div>
 			</section>
 
@@ -112,32 +166,22 @@
 			<section id="contact" class="main style3 secondary">
 				<div class="content">
 					<header>
-						<h2>Let's work together</h2>
+						<h2>Contact me!</h2>
 					</header>
 					<div class="box">
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-							</div>
-							<ul class="actions special">
-								<li><input type="submit" (click)="true" value="Send Message" /></li>
-							</ul>
-						</form>
+						<strong>Email:</strong> alexandrabalza09@gmail.com<br>
+						<strong>Phone:</strong> +584123369575<br>
+						<strong>Telegram:</strong> alebalza09
 					</div>
+					<br><br>
 				</div>
 			</section>
 
 		<!-- Footer -->
 			<footer id="footer">
-
-
-				<!-- Menu -->
 					<ul class="menu">
-						<li>2022 version</li>
+						<li>2022 version | Credits to HTML5 UP</li>
 					</ul>
-
 			</footer>
 
 		<!-- Scripts -->
