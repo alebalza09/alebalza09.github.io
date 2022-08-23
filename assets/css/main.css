@@ -72,8 +72,24 @@ input, select, textarea {
 	appearance: none;
 }
 
-.tech{
+.ms-5{
 	margin-right: 5rem;
+}
+
+.ms-3{
+	margin-right: 3rem;
+}
+
+.logo-5{
+	width: 5rem;
+}
+
+.logo-7{
+	width: 7rem;
+}
+
+.logo-9{
+	width: 9rem;
 }
 
 .mb-2{
@@ -639,6 +655,7 @@ input, select, textarea {
 		background: #ffffff;
 		color: #39454b;
 		padding: 2em;
+		margin-bottom: 10rem !important;
 	}
 
 		.box > :last-child {
@@ -1000,7 +1017,7 @@ input, select, textarea {
 		}
 
 		.image.fit-app {
-			display: block;
+			/* display: block; */
 			width: 13rem;
 		}
 
@@ -1467,8 +1484,8 @@ input, select, textarea {
 		}
 
 			.gallery article .image {
-				margin: 0;
-				display: block;
+				/* margin: 0; */
+				/* display: block; */
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -1946,6 +1963,8 @@ input, select, textarea {
     font-size: 1.4rem;
     margin-top: 0.5rem;
 }
+
+
 /* Main */
 
 	.main {
@@ -2112,7 +2131,8 @@ input, select, textarea {
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
-				width: 40%;
+				width: 50%;
+				top: 3rem;
 			}
 
 		}
@@ -2120,15 +2140,62 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.main.style2 .content {
-				width: 50%;
+				width: 50rem;
 			}
+
+			.position{
+				top: 2rem;
+			    width: 45rem !important;
+			}
+
+			.img2{
+				margin: 0;
+				position: absolute;
+				width: 22rem;
+				top: 4rem;
+				right: 12rem;
+			}
+
+			.logo-9{
+				display: none;
+			}
+
+			.django{
+				display: none;
+			}
+
 
 		}
 
 		@media screen and (max-width: 1000px) {
 
 			.main.style2 .content {
-				width: 60%;
+				width: 50rem;
+			}
+
+			.position{
+				top: 7rem;
+				width: 42rem !important;
+			}
+
+			.img2{
+				margin: 0;
+				position: absolute;
+				width: 19rem;
+				top: 3rem;
+				right: 14rem;
+			}
+
+			.logo-9{
+				display: none;
+			}
+
+			.logo-7{
+				display: none;
+			}
+
+			.last-pic{
+				display: none;
 			}
 
 		}
@@ -2159,10 +2226,6 @@ input, select, textarea {
 					display: none !important;
 				}
 
-				.main.style2 .button.anchored {
-					display: none;
-				}
-
 				.main.style2 .content {
 					width: 100%;
 					max-width: 100%;
@@ -2178,12 +2241,40 @@ input, select, textarea {
 				padding: 3em 10px 3em 10px;
 			}
 
+			.logo-5 .logo-7 .logo-9{
+				display: none;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.main > .content {
 				max-width: calc(100% - 1.5em);
+			}
+			
+			.main.style2 .content {
+				top: 6rem;
+			}
+			
+			.position{
+				top: 2rem;
+			}
+
+			.img2{
+				margin: 0;
+				position: absolute;
+				width: 15rem;
+				top: 2rem;
+				right: 4rem;
+			}
+
+			.style-tech{
+				display: none;
+			}
+
+			.image.fit{
+				width: 21rem;
 			}
 
 		}
