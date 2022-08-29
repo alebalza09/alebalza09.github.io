@@ -2134,7 +2134,11 @@ input, select, textarea {
 				width: 50%;
 				top: 3rem;
 			}
-
+			.main.frame .content {
+				height: 20rem;
+				margin-top: 5rem;
+				width: 35rem;
+			}
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2172,6 +2176,7 @@ input, select, textarea {
 			.main.style2 .content {
 				width: 50rem;
 			}
+
 
 			.position{
 				top: 7rem;
@@ -2254,7 +2259,14 @@ input, select, textarea {
 			}
 			
 			.main.style2 .content {
-				top: 6rem;
+				top: 11rem;
+			}
+
+			.main.frame .content {
+				height: 20rem;
+				display: block;
+				margin: 0 auto;
+				margin-top: 5rem;
 			}
 			
 			.position{
